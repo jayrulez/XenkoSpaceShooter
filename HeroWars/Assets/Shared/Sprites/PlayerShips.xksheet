@@ -1,0 +1,104 @@
+!SpriteSheet
+Id: 5b09066b-7bf8-4d44-8c5d-e9a8a3721e70
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    b882629125736b5110d7d002495dc575:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip1_blue.png
+        Name: playerShip1_blue
+        TextureRegion: {X: 0, Y: 0, Width: 99, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bb61715b2382343ce538207118365192:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip1_green.png
+        Name: playerShip1_green
+        TextureRegion: {X: 0, Y: 0, Width: 99, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    77a8712f07338db2c4b9d2bb50dc9480:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip1_orange.png
+        Name: playerShip1_orange
+        TextureRegion: {X: 0, Y: 0, Width: 99, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    72a35b0c6dbd67ddf7d9cc1b36972346:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip1_red.png
+        Name: playerShip1_red
+        TextureRegion: {X: 0, Y: 0, Width: 99, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    937752b0445538956044d1fb924295af:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip2_blue.png
+        Name: playerShip2_blue
+        TextureRegion: {X: 0, Y: 0, Width: 112, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    0b846113809362c9f5c733deb59a92be:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip2_green.png
+        Name: playerShip2_green
+        TextureRegion: {X: 0, Y: 0, Width: 112, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d2d8587d384940349f9a737f939a25b5:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip2_orange.png
+        Name: playerShip2_orange
+        TextureRegion: {X: 0, Y: 0, Width: 112, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    0639f07efc408e2044d69c3b26e9b6ee:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip2_red.png
+        Name: playerShip2_red
+        TextureRegion: {X: 0, Y: 0, Width: 112, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    3c2310b38ae51dbdbbcb5281f2dc5ded:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip3_blue.png
+        Name: playerShip3_blue
+        TextureRegion: {X: 0, Y: 0, Width: 98, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1d3ba5672482e52194b71724f85daffb:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip3_green.png
+        Name: playerShip3_green
+        TextureRegion: {X: 0, Y: 0, Width: 98, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a7096c2471b0506ee3e668ef46d8b1f0:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip3_orange.png
+        Name: playerShip3_orange
+        TextureRegion: {X: 0, Y: 0, Width: 98, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    695ec0315cb8a1871196384e4e3fcd3d:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/playerShip3_red.png
+        Name: playerShip3_red
+        TextureRegion: {X: 0, Y: 0, Width: 98, Height: 75}
+        PixelsPerUnit: 200.0
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

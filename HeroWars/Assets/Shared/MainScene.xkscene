@@ -1,0 +1,230 @@
+!SceneAsset
+Id: a4ef9704-067f-4cd2-954d-d78f7eb8ca39
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootPartIds:
+        - 1addec7e-2ace-45e2-acff-dacf48cde579
+        - 897f3df7-6ed4-4c49-9cec-3e03bd0e61fe
+        - 900e06f0-6e06-435b-88f3-df2f5a5d7454
+        - ff9da01e-42ee-4d01-b1e9-6cdb476bfe52
+        - 4845c97c-1d2e-4066-8a01-c65bb57494fd
+        - 052e9d19-9014-4356-a3bd-1f299c81b60e
+        - d35e0cd3-1f87-45f0-afdc-465653f774e7
+        - be80e297-3ddd-47c6-aaee-c08bc034237d
+        - 1d93f4d0-85ed-4767-b02e-7d01f8d7a768
+    Parts:
+        -   Entity:
+                Id: 052e9d19-9014-4356-a3bd-1f299c81b60e
+                Name: LeftBorder
+                Components:
+                    7d331df4dd65786d5c27662cb87734b9: !TransformComponent
+                        Id: 72c8cf0a-45d1-48f6-b99f-4d6b411e1b6a
+                        Position: {X: -3.23172784, Y: 0.00318304449, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    db5a39013494501fe6d2357cc5617f62: !StaticColliderComponent
+                        Id: b7cdab2d-4830-4f71-bffc-614ed8df84a5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            f76bcc0eadd92c64ef80e920df279bb9: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.5, Y: 4.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 1addec7e-2ace-45e2-acff-dacf48cde579
+                Name: Camera
+                Components:
+                    72a91862ce75b29a7229b4f98cf6af26: !TransformComponent
+                        Id: adb9ff77-f2af-4a14-8d21-75e37cf13506
+                        Position: {X: 0.0, Y: 0.0, Z: 100.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5c2e20c413a426bbe5334c9917d9e64d: !CameraComponent
+                        Id: 4d13d82f-3422-443d-9d9b-82615d8e5080
+                        Name: null
+                        Projection: Orthographic
+                        OrthographicSize: 4.5
+                        Slot: 150d5a54-4b14-413a-ba9e-7bfbd3ff5465
+        -   Folder: null
+            Entity:
+                Id: 1d93f4d0-85ed-4767-b02e-7d01f8d7a768
+                Name: TopBorder
+                Components:
+                    7d331df4dd65786d5c27662cb87734b9: !TransformComponent
+                        Id: 62905b2c-6d14-4498-b2b8-93f2e5b777de
+                        Position: {X: 0.0140312314, Y: 2.49694037, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    db5a39013494501fe6d2357cc5617f62: !StaticColliderComponent
+                        Id: 593a014d-50fc-43bb-9924-14f9515f91a7
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            f76bcc0eadd92c64ef80e920df279bb9: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 6.0, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 4845c97c-1d2e-4066-8a01-c65bb57494fd
+                Name: LevelManager
+                Components:
+                    6e30549a498e496eb4eea72808b0891b: !TransformComponent
+                        Id: cecb4832-6ee8-481a-b8c1-e4827ae506d8
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4b9ec9969056832534323c0cef03e68e: !HeroWars.LevelManagerScript,HeroWars.Game
+                        Id: 3fa080f4-c561-4e4c-86e5-35c44bee5a1d
+                        SpawnInterval: 0.0
+                        SpawnCountdown: 0.0
+        -   Entity:
+                Id: 897f3df7-6ed4-4c49-9cec-3e03bd0e61fe
+                Name: Background
+                Components:
+                    fa3c853bbbebd6168ff15961555293a8: !TransformComponent
+                        Id: 77010cf3-8d76-492d-8900-18045400fe50
+                        Position: {X: 0.0, Y: 4.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9b15d8f0b26e44ff0baf4aed69dc0683: !SpriteComponent
+                        Id: 4bed70db-f3e5-4a05-a33d-6b865b9bc728
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 91b0d77f-d87f-45ce-ac48-2defb13b2859:Sprites/StarField
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    a63bb495ebcdcdab1ef1ec0bccc96f75: !HeroWars.SpaceBackgroundScript,HeroWars.Game
+                        Id: 563de91a-e404-4b91-b64d-e5ec910a8fe0
+                        TileSize: 4.5
+                        ScrollSpeed: 0.4
+                        Index: 0
+        -   Entity:
+                Id: 900e06f0-6e06-435b-88f3-df2f5a5d7454
+                Name: Background
+                Components:
+                    fa3c853bbbebd6168ff15961555293a8: !TransformComponent
+                        Id: 9d73f9fc-1e9d-449c-a359-9073f3c93735
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9b15d8f0b26e44ff0baf4aed69dc0683: !SpriteComponent
+                        Id: 334c274e-9cb7-4c3d-a03e-2064ce390243
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 91b0d77f-d87f-45ce-ac48-2defb13b2859:Sprites/StarField
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    a63bb495ebcdcdab1ef1ec0bccc96f75: !HeroWars.SpaceBackgroundScript,HeroWars.Game
+                        Id: 6682bc72-a817-4891-ab85-bc075b162e42
+                        TileSize: 4.5
+                        ScrollSpeed: 0.4
+                        Index: 0
+        -   Folder: null
+            Entity:
+                Id: be80e297-3ddd-47c6-aaee-c08bc034237d
+                Name: BottomBorder
+                Components:
+                    7d331df4dd65786d5c27662cb87734b9: !TransformComponent
+                        Id: 40f5b513-1521-44ba-aafd-f2e2dcd3e7cb
+                        Position: {X: 0.0140312314, Y: -2.50110269, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    db5a39013494501fe6d2357cc5617f62: !StaticColliderComponent
+                        Id: 7eb390ae-824f-485f-807e-909a2be747d2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            f76bcc0eadd92c64ef80e920df279bb9: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 6.0, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: d35e0cd3-1f87-45f0-afdc-465653f774e7
+                Name: RightBorder
+                Components:
+                    7d331df4dd65786d5c27662cb87734b9: !TransformComponent
+                        Id: 5ad05adc-a896-45cd-8c05-fb6bc05bd1f3
+                        Position: {X: 3.259665, Y: -0.001816689, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    db5a39013494501fe6d2357cc5617f62: !StaticColliderComponent
+                        Id: a00ae7d0-1720-4f2e-9b77-071e4a150835
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            f76bcc0eadd92c64ef80e920df279bb9: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.5, Y: 4.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: ff9da01e-42ee-4d01-b1e9-6cdb476bfe52
+                Name: Player
+                Components:
+                    f2d31e8042d2ad6e2c31573db4364796: !TransformComponent
+                        Id: 137a2a55-1a65-4ee7-8bb3-c90822767a01
+                        Position: {X: 0.0, Y: -2.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3e617b1d468a2fabb341e5ce36bbe33d: !SpriteComponent
+                        Id: 5eff42f5-985a-42fc-a8f7-074d391e2923
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5b09066b-7bf8-4d44-8c5d-e9a8a3721e70:Sprites/PlayerShips
+                            CurrentFrame: 1
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        IgnoreDepth: true
+                    05ad187f4949c6c99fdde0cb252518fe: !HeroWars.PlayerScript,HeroWars.Game
+                        Id: 5a25e1da-dd19-4ffd-a50e-6ecf89cbbc10
+                    4598bba1f1e62d334a72d0b71f0aacfb: !CharacterComponent
+                        Id: acebecf2-b73d-4043-a1b4-f2ee406b2bec
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 5.0
+                        Gravity: 0.0
+                        ColliderShapes:
+                            8163480029f610cab5e36decb5328e37: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.5, Y: 0.4, Z: 0.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c64fbab2c9e7e83967c2aef4420a41b8: !HeroWars.PlayerCollisionScript,HeroWars.Game
+                        Id: 28c8061f-4384-40f3-aad7-bbf109918330

@@ -1,0 +1,8 @@
+!Sound
+Id: 940ebdf2-972c-4093-8f03-a58aa7bea293
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../GameAssets/SpaceShooterRedux/Bonus/sfx_twoTone.ogg
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

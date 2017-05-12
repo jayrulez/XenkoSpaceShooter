@@ -1,0 +1,148 @@
+!SpriteSheet
+Id: 5c189ce9-449b-4463-87ba-144f10aa5611
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    417c069b168f3e9d713cfa5ebf1fd669:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_big1.png
+        Name: meteorBrown_big1
+        TextureRegion: {X: 0, Y: 0, Width: 101, Height: 84}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    43f0873910cd97325e1380644286a73e:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_big2.png
+        Name: meteorBrown_big2
+        TextureRegion: {X: 0, Y: 0, Width: 120, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    48760bf1e2a37b5febaa06ac8d659fa8:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_big3.png
+        Name: meteorBrown_big3
+        TextureRegion: {X: 0, Y: 0, Width: 89, Height: 82}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    041b92fd92738c815ff416263f5f451b:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_big4.png
+        Name: meteorBrown_big4
+        TextureRegion: {X: 0, Y: 0, Width: 98, Height: 96}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    dfae95de3eac46172996b33b10945f08:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_med1.png
+        Name: meteorBrown_med1
+        TextureRegion: {X: 0, Y: 0, Width: 43, Height: 43}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    6190739b9e55e5de721782b819c6fcf1:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_med3.png
+        Name: meteorBrown_med3
+        TextureRegion: {X: 0, Y: 0, Width: 45, Height: 40}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9f9bbc76f88dd0f096ed6144582befec:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_small1.png
+        Name: meteorBrown_small1
+        TextureRegion: {X: 0, Y: 0, Width: 28, Height: 28}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a56c5963ebf41adda00fae2665fd0670:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_small2.png
+        Name: meteorBrown_small2
+        TextureRegion: {X: 0, Y: 0, Width: 29, Height: 26}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    087bea97a4c4eddef43b945e9f52c962:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_tiny1.png
+        Name: meteorBrown_tiny1
+        TextureRegion: {X: 0, Y: 0, Width: 18, Height: 18}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    ff98df80b7b313556d39ba91188e1f0c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorBrown_tiny2.png
+        Name: meteorBrown_tiny2
+        TextureRegion: {X: 0, Y: 0, Width: 16, Height: 15}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7ee7084ad27834eebeb59684d7107cdf:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_big1.png
+        Name: meteorGrey_big1
+        TextureRegion: {X: 0, Y: 0, Width: 101, Height: 84}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    832288cd517b9fc28f97fe69a409ff37:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_big2.png
+        Name: meteorGrey_big2
+        TextureRegion: {X: 0, Y: 0, Width: 120, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a221b6815e530871f1b894e0bd144f16:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_big3.png
+        Name: meteorGrey_big3
+        TextureRegion: {X: 0, Y: 0, Width: 89, Height: 82}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    aa5a576b6ac873360fdc63dc1da39b15:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_big4.png
+        Name: meteorGrey_big4
+        TextureRegion: {X: 0, Y: 0, Width: 98, Height: 96}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    95ec8b88e272cc7d8f91f49997ff2087:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_med1.png
+        Name: meteorGrey_med1
+        TextureRegion: {X: 0, Y: 0, Width: 43, Height: 43}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9174e353913e915f4eecbff094fbb07a:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_med2.png
+        Name: meteorGrey_med2
+        TextureRegion: {X: 0, Y: 0, Width: 45, Height: 40}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    0660b1cb4bfb325bd9ffb8f1d99c7444:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_small1.png
+        Name: meteorGrey_small1
+        TextureRegion: {X: 0, Y: 0, Width: 28, Height: 28}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bc27db083374654dd52cab23fefff237:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_small2.png
+        Name: meteorGrey_small2
+        TextureRegion: {X: 0, Y: 0, Width: 29, Height: 26}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7662e51979d776974e19cf19255023b2:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_tiny1.png
+        Name: meteorGrey_tiny1
+        TextureRegion: {X: 0, Y: 0, Width: 18, Height: 18}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    227eed2d77e07866bc63427a10efbec0:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Meteors/meteorGrey_tiny2.png
+        Name: meteorGrey_tiny2
+        TextureRegion: {X: 0, Y: 0, Width: 16, Height: 15}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

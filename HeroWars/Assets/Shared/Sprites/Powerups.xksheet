@@ -1,0 +1,232 @@
+!SpriteSheet
+Id: 8c1b50c4-5605-4e78-8406-b4c9d77ef487
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    c9c6d577d939275673f80c7568cd83b6:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/bold_silver.png
+        Name: bold_silver
+        TextureRegion: {X: 0, Y: 0, Width: 19, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    464da1bd6579374b79ff4d0ceaf8e496:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/bolt_bronze.png
+        Name: bolt_bronze
+        TextureRegion: {X: 0, Y: 0, Width: 19, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    ec685fbd8fab3e48ae61e575e99170ba:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/bolt_gold.png
+        Name: bolt_gold
+        TextureRegion: {X: 0, Y: 0, Width: 19, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5a99010a80eff139676663dfe5bb3e78:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/pill_blue.png
+        Name: pill_blue
+        TextureRegion: {X: 0, Y: 0, Width: 22, Height: 21}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    eefaa8facf36a625719cb7079faea328:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/pill_green.png
+        Name: pill_green
+        TextureRegion: {X: 0, Y: 0, Width: 22, Height: 21}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f81e934925b133de6e9931a915d5693c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/pill_red.png
+        Name: pill_red
+        TextureRegion: {X: 0, Y: 0, Width: 22, Height: 21}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    4a4841e41e776aa3d12a8c18b565e265:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/pill_yellow.png
+        Name: pill_yellow
+        TextureRegion: {X: 0, Y: 0, Width: 22, Height: 21}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f0609c00009fbe0917654760d12cc23d:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupBlue.png
+        Name: powerupBlue
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    be064c5eb876c5330616d29480eb6e5e:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupBlue_bolt.png
+        Name: powerupBlue_bolt
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c7f33f28d60714590b7eec6887d5f4f0:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupBlue_shield.png
+        Name: powerupBlue_shield
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    db2bae13d146de5bb3a91087e9cd1d9e:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupBlue_star.png
+        Name: powerupBlue_star
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    fff03ebe28a723480a61fe705d827e28:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupGreen.png
+        Name: powerupGreen
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1f093f95abee424c49d6b83df26a5482:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupGreen_bolt.png
+        Name: powerupGreen_bolt
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f2f274e0961e96cd4c4ef7db01d65e3f:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupGreen_shield.png
+        Name: powerupGreen_shield
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f286c1e33097bf191f7b41416f1ad00e:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupGreen_star.png
+        Name: powerupGreen_star
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    be3bfbac3dea430338770fcd73761f2d:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupRed.png
+        Name: powerupRed
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    627e2cf9df504cbafbcce99085a160cb:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupRed_bolt.png
+        Name: powerupRed_bolt
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1aa66fa294c7fdd2eb67bb39e0dc02e5:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupRed_shield.png
+        Name: powerupRed_shield
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    487c12ebb553eb2c68b39862bf9996b9:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupRed_star.png
+        Name: powerupRed_star
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    29f0ecd00f9201d4813fec782eb89b92:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupYellow.png
+        Name: powerupYellow
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d23a4860b1f795af05aad26d5e40e0ef:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupYellow_bolt.png
+        Name: powerupYellow_bolt
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bc14fc31c9ab06d61e1d09e916ccd639:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupYellow_shield.png
+        Name: powerupYellow_shield
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9551035bb44d02b9e27a8dfb2a02b8f7:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/powerupYellow_star.png
+        Name: powerupYellow_star
+        TextureRegion: {X: 0, Y: 0, Width: 34, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2c7d3e3181479d091b88011f16d4cc8e:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/shield_bronze.png
+        Name: shield_bronze
+        TextureRegion: {X: 0, Y: 0, Width: 30, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9d4106d8c34185eea57e7d42aec3226c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/shield_gold.png
+        Name: shield_gold
+        TextureRegion: {X: 0, Y: 0, Width: 30, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5d7d449d096c4239e498493b282a3cfc:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/shield_silver.png
+        Name: shield_silver
+        TextureRegion: {X: 0, Y: 0, Width: 30, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d23c340cb5c5504442031f29b33c22f6:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/star_bronze.png
+        Name: star_bronze
+        TextureRegion: {X: 0, Y: 0, Width: 31, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8e912ea39d8b810a46e378cd7d1c691a:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/star_gold.png
+        Name: star_gold
+        TextureRegion: {X: 0, Y: 0, Width: 31, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7f4a90b340e9421e9a533a24bb519563:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/star_silver.png
+        Name: star_silver
+        TextureRegion: {X: 0, Y: 0, Width: 31, Height: 30}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d47bfc8c5512b8fe0c7ff85d825a98d8:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/things_bronze.png
+        Name: things_bronze
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    aa11ba84e9cef60ca53e7b24a0271c9e:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/things_gold.png
+        Name: things_gold
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    eb0f30c12232aa5052ec9f89ffc1bebc:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Power-ups/things_silver.png
+        Name: things_silver
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

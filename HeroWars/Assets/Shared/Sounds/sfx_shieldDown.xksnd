@@ -1,0 +1,8 @@
+!Sound
+Id: d7a3b5f6-74bf-4f3f-9ef8-09c17065aa77
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../GameAssets/SpaceShooterRedux/Bonus/sfx_shieldDown.ogg
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

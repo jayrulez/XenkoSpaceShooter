@@ -1,0 +1,48 @@
+!PrefabAsset
+Id: c1f845c1-689e-46e1-bffd-69b4e0f9bf0f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - e73505c9-0b35-4d93-9109-63efa9e7f90c
+    Parts:
+        -   Entity:
+                Id: e73505c9-0b35-4d93-9109-63efa9e7f90c
+                Name: EnemyBullet
+                Components:
+                    06f2ab61ae109de34f60f3764949b5a8: !TransformComponent
+                        Id: e766221d-c10f-4dcc-ad75-0bb3cc734339
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    006319d56c4c6cbf62b444374efa5aee: !SpriteComponent
+                        Id: 22f23a77-01ae-4a7e-b3b8-360a2d2c5cc6
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 90a7825b-c143-4188-bb10-7bcc17eb2dc2:Sprites/Lasers
+                            CurrentFrame: 1
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    b0b83eea8ab066d1e9064d078548f27f: !RigidbodyComponent
+                        Id: b9c67a25-c508-4f67-9dff-34b812e3398e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            229e41ceef5192bf0a0538095bb62a41: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.125, Y: 0.35, Z: 0.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    b4eb01137481854531d869c30a5f0950: !HeroWars.EnemyBulletScript,HeroWars.Game
+                        Id: 0f4ab411-c515-42bf-a5be-784336ab2381

@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 5cae0fdb-04c7-45e8-bb1c-dd77315a1aa0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    97875e50b97962a713141a39bd83d985:
+        Source: ../../../Resources/background_galaxy.jpg
+        Name: background_galaxy
+        TextureRegion: {X: 0, Y: 0, Width: 2880, Height: 1800}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

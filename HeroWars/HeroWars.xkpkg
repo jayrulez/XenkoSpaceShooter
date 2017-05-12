@@ -1,0 +1,45 @@
+!Package
+Id: 0effc43d-e362-485f-ab96-3eab266109c9
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: HeroWars
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: HeroWars
+    Dependencies:
+        -   Name: Xenko
+            Version: 2.0.1.1
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: HeroWars.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 57098549-3093-49f2-a8e3-5c7725bf3459
+                Location: HeroWars.Game/HeroWars.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 18c1c57c-3ecd-4a56-82b1-2f5936e3c413
+                Location: HeroWars.Windows/HeroWars.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 67dcadee-658e-480c-96f9-00f878ce761e:StartScene
+    - a44b7572-b0d5-4ec1-8f01-e2c6419bd97c:EnemyShip
+    - a4ef9704-067f-4cd2-954d-d78f7eb8ca39:MainScene
+    - c1f845c1-689e-46e1-bffd-69b4e0f9bf0f:EnemyBullet
+    - ff0220ba-ec09-4d28-a84f-b9bad9785b3c:PlayerBullet
