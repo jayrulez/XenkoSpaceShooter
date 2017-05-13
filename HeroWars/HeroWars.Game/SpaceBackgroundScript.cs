@@ -33,11 +33,12 @@ namespace HeroWars
 
         public override void Update()
         {
-            // Do stuff every new frame
-            
-            var newPosition =  this.Repeat((float)Game.UpdateTime.Total.TotalSeconds * ScrollSpeed, TileSize);
-            
-            Entity.Transform.Position = StartPosition - Vector3.UnitY * newPosition;
+            if(Game.IsRunning)
+            {
+                var newPosition = this.Repeat((float)Game.UpdateTime.Total.TotalSeconds * ScrollSpeed, TileSize);
+
+                Entity.Transform.Position = StartPosition - Vector3.UnitY * newPosition;
+            }
         }
     }
 }

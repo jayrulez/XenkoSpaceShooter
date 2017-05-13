@@ -14,35 +14,36 @@ namespace HeroWars
 {
     public class PlayerCollisionScript : AsyncScript
     {
-        // Declared public member fields and properties will show in the game studio
-
         public override async Task Execute()
         {
-            var characterComponent = Entity.Get<CharacterComponent>();
-            
-            var playerScript = Entity.Get<PlayerScript>();
-            
-            while(Game.IsRunning)
+            if (Game.IsRunning)
             {
-                // Do stuff every new frame
-                await Script.NextFrame();
-                
-                var collision = await characterComponent.NewCollision();
+                var characterComponent = Entity.Get<CharacterComponent>();
 
-                if(collision.ColliderA.Entity.Name == "EnemyBullet")
+                var playerScript = Entity.Get<PlayerScript>();
+
+                while (Game.IsRunning)
                 {
-                    var script = collision.ColliderA.Entity.Get<EnemyBulletScript>();
+                    await Script.NextFrame();
 
-                    script.Die();
+                    var collision = await characterComponent.NewCollision();
 
-                    playerScript.TakeDamage();
-                }else if (collision.ColliderB.Entity.Name == "EnemyBullet")
-                {
-                    var script = collision.ColliderB.Entity.Get<EnemyBulletScript>();
+                    if (collision.ColliderA.Entity.Name == "EnemyBullet")
+                    {
+                        var script = collision.ColliderA.Entity.Get<EnemyBulletScript>();
 
-                    script.Die();
+                        script.Die();
 
-                    playerScript.TakeDamage();
+                        playerScript.TakeDamage();
+                    }
+                    else if (collision.ColliderB.Entity.Name == "EnemyBullet")
+                    {
+                        var script = collision.ColliderB.Entity.Get<EnemyBulletScript>();
+
+                        script.Die();
+
+                        playerScript.TakeDamage();
+                    }
                 }
             }
         }

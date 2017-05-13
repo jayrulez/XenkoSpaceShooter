@@ -14,8 +14,6 @@ namespace HeroWars
 {
     public class LaserScript : SyncScript
     {
-        // Declared public member fields and properties will show in the game studio
-
         public override void Start()
         {
             
@@ -23,8 +21,6 @@ namespace HeroWars
 
         public override void Update()
         {
-            // Do stuff every new frame
-            
             if (Entity.Transform.Position.Y >= 5)
             {
                 Die();

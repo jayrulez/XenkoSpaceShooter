@@ -1,0 +1,47 @@
+!PrefabAsset
+Id: b860a5c1-d8f8-48e5-98d8-679216acc999
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - bac48ae5-5d79-4597-af2f-eda52e11f33a
+    Parts:
+        -   Entity:
+                Id: bac48ae5-5d79-4597-af2f-eda52e11f33a
+                Name: Player
+                Components:
+                    f2d31e8042d2ad6e2c31573db4364796: !TransformComponent
+                        Id: feecb103-021e-46ef-87c8-a4a5b77241dc
+                        Position: {X: 0.0, Y: -2.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3e617b1d468a2fabb341e5ce36bbe33d: !SpriteComponent
+                        Id: e04989a4-ef2a-41a7-b748-8c59747b0000
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5b09066b-7bf8-4d44-8c5d-e9a8a3721e70:Sprites/PlayerShips
+                            CurrentFrame: 1
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        IgnoreDepth: true
+                    05ad187f4949c6c99fdde0cb252518fe: !HeroWars.PlayerScript,HeroWars.Game
+                        Id: 758a6e8e-f754-4d1a-abb7-0935cae0564a
+                    4598bba1f1e62d334a72d0b71f0aacfb: !CharacterComponent
+                        Id: 004437b5-6895-4dd7-9418-b61c88008453
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 5.0
+                        Gravity: 0.0
+                        ColliderShapes:
+                            8163480029f610cab5e36decb5328e37: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.5, Y: 0.4, Z: 0.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    c64fbab2c9e7e83967c2aef4420a41b8: !HeroWars.PlayerCollisionScript,HeroWars.Game
+                        Id: 188a731a-1738-4db2-9894-466149113eb3

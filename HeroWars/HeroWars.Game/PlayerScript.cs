@@ -112,7 +112,6 @@ namespace HeroWars
             if (inputState == InputState.None)
             {
                 Velocity = Vector3.Zero;
-                //Position = Vector3.Zero;
             }
             else
             {
@@ -120,11 +119,6 @@ namespace HeroWars
             }
 
             Entity.Get<CharacterComponent>().SetVelocity(Velocity);
-
-            //Console.WriteLine(Velocity);
-            //Console.WriteLine(SceneSystem.SceneInstance.RootScene.Entities.Count);
-
-            //Entity.Transform.Position = Position;
         }
         
         private void FireShot()
@@ -146,10 +140,6 @@ namespace HeroWars
                 SceneSystem.SceneInstance.RootScene.Entities.Add(bullet);
 
                 bullet.Get<RigidbodyComponent>().IsKinematic = false;
-                //bullet.Get<RigidbodyComponent>().Activate();
-                //bullet.Get<RigidbodyComponent>().LinearFactor = new Vector3(0, 1, 0);
-                //bullet.Get<RigidbodyComponent>().AngularFactor = new Vector3(0, 0, 0);
-                //bullet.Get<RigidbodyComponent>().ApplyImpulse(new Vector3(0, 25, 0));
                 bullet.Get<RigidbodyComponent>().LinearVelocity = new Vector3(0, 20, 0);
             }
         }
@@ -181,19 +171,14 @@ namespace HeroWars
             return inputState;
         }
 
-        public void Die()
-        {
-        }
-
         public void TakeDamage()
         {
             HitPoints--;
 
             if(HitPoints <= 0)
             {
-                SceneSystem.SceneInstance.RootScene.Entities.Remove(Entity);
-
-                Cancel();
+                HitPoints = 0;
+                GameGlobals.PlayerDeathEventKey.Broadcast();
             }
         }
     }

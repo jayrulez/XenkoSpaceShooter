@@ -14,35 +14,36 @@ namespace HeroWars
 {
     public class EnemyCollisionScript : AsyncScript
     {
-        // Declared public member fields and properties will show in the game studio
-
         public override async Task Execute()
         {
-            var rigidBody = Entity.Get<RigidbodyComponent>();
-            
-            var enemyScript = Entity.Get<EnemyShip>();
-            
-            while(Game.IsRunning)
+            if (Game.IsRunning)
             {
-                // Do stuff every new frame
-                await Script.NextFrame();
-                
-                var collision = await rigidBody.NewCollision();
+                var rigidBody = Entity.Get<RigidbodyComponent>();
 
-                if(collision.ColliderA.Entity.Name == "PlayerBullet" && rigidBody.IsTrigger)
+                var enemyScript = Entity.Get<EnemyShip>();
+
+                while (Game.IsRunning)
                 {
-                    var script = collision.ColliderA.Entity.Get<LaserScript>();
+                    await Script.NextFrame();
 
-                    script.Die();
+                    var collision = await rigidBody.NewCollision();
 
-                    enemyScript.Die();
-                }else if (collision.ColliderB.Entity.Name == "PlayerBullet" && rigidBody.IsTrigger)
-                {
-                    var script = collision.ColliderB.Entity.Get<LaserScript>();
+                    if (collision.ColliderA.Entity.Name == "PlayerBullet" && rigidBody.IsTrigger)
+                    {
+                        var script = collision.ColliderA.Entity.Get<LaserScript>();
 
-                    script.Die();
+                        script.Die();
 
-                    enemyScript.Die();
+                        enemyScript.Die();
+                    }
+                    else if (collision.ColliderB.Entity.Name == "PlayerBullet" && rigidBody.IsTrigger)
+                    {
+                        var script = collision.ColliderB.Entity.Get<LaserScript>();
+
+                        script.Die();
+
+                        enemyScript.Die();
+                    }
                 }
             }
         }
