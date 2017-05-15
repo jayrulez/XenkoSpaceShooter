@@ -70,6 +70,7 @@ namespace HeroWars
 
             if (Input.PointerEvents.Any(e => e.State == PointerState.Down))
             {
+                Content.Unload(SceneSystem.SceneInstance.RootScene);
                 SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("MainScene");
             }
         }

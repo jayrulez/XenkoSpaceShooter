@@ -1,0 +1,25 @@
+!PrefabAsset
+Id: d0327103-8ce5-45ea-bdfa-ab8272ddbaca
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - 9ec467c1-e12e-4082-a727-c31c8b6f24fd
+    Parts:
+        -   Entity:
+                Id: 9ec467c1-e12e-4082-a727-c31c8b6f24fd
+                Name: EnemyExplosion
+                Components:
+                    fceeceae2b59f9b9aa7d4c4565e0e532: !TransformComponent
+                        Id: 8ab42d22-134d-46a6-a5d9-bd6fb3f3a72e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d736c224f993cf3f6d8c617b513d4c8e: !SpriteComponent
+                        Id: eeb5549a-9bab-4d10-9c6e-11ea633b5274
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 3f3b1ccd-b0b0-4242-ab02-3ca4081ff532:Sprites/EnemyExplosion
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    fe843e6e542d1db76cb112e63dee56e1: !HeroWars.EnemyExplosionScript,HeroWars.Game
+                        Id: 545f21de-12d7-49bc-9e1f-0e14f54c949b

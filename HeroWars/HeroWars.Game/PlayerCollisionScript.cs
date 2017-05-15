@@ -44,6 +44,24 @@ namespace HeroWars
 
                         playerScript.TakeDamage();
                     }
+                    
+                    if(collision.ColliderA.Entity.Name == "HealthUp")
+                    {
+                        var script = collision.ColliderA.Entity.Get<HealthUpScript>();
+
+                        script.Die();
+                        
+                        playerScript.AddHealth(1);
+                    }
+                    
+                    if(collision.ColliderB.Entity.Name == "HealthUp")
+                    {
+                        var script = collision.ColliderB.Entity.Get<HealthUpScript>();
+
+                        script.Die();
+                        
+                        playerScript.AddHealth(1);
+                    }
                 }
             }
         }

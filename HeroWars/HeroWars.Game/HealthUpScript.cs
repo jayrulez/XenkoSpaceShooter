@@ -11,10 +11,13 @@ using SiliconStudio.Xenko.Engine;
 
 namespace HeroWars
 {
-    public class EnemyBulletScript : SyncScript
+    public class HealthUpScript : SyncScript
     {
+        // Declared public member fields and properties will show in the game studio
+
         public override void Start()
         {
+            // Initialization of the script.
         }
 
         public override void Update()

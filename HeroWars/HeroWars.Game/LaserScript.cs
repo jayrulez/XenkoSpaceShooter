@@ -30,8 +30,6 @@ namespace HeroWars
         public void Die()
         {
             SceneSystem.SceneInstance.RootScene.Entities.Remove(Entity);
-            
-            Cancel();
         }
     }
 }

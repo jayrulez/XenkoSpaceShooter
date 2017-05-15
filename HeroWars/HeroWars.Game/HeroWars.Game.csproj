@@ -109,8 +109,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EnemyBulletScript.cs" />
+    <Compile Include="EnemyExplosionScript.cs" />
     <Compile Include="GameGlobals.cs" />
     <Compile Include="GameOverScript.cs" />
+    <Compile Include="HealthUpScript.cs" />
     <Compile Include="PlayerCollisionScript.cs" />
     <Compile Include="EnemyCollisionScript.cs" />
     <Compile Include="EnemyShip.cs" />

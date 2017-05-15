@@ -9,15 +9,19 @@ using SiliconStudio.Core.Mathematics;
 using SiliconStudio.Xenko.Input;
 using SiliconStudio.Xenko.Engine;
 using SiliconStudio.Xenko.Physics;
+using SiliconStudio.Xenko.Audio;
 
 namespace HeroWars
 {
     public class PlayerScript : SyncScript
     {
         private Prefab LaserShotPrefab;
-
-        private int HitPoints = 10;
         
+        public int HitPoints { get; private set; }
+        public int Score { get; private set; }
+        public Sound ShotSound {get; set;}
+        private SoundInstance ShotSoundInstance;
+
         [Flags]
         private enum InputState
         {
@@ -27,8 +31,6 @@ namespace HeroWars
             Left = 0x8,
             Right = 0x16
         }
-
-        private InputState OldInputState = InputState.None;
 
         private Vector3 StartPosition { get; set; }
 
@@ -44,8 +46,6 @@ namespace HeroWars
 
         public override void Start()
         {
-            // Initialization of the script.
-
             StartPosition = Entity.Transform.Position;
 
             ScreenWidth = GraphicsDevice.Presenter.BackBuffer.Width;
@@ -80,7 +80,11 @@ namespace HeroWars
             Position = Vector3.Zero;
             Velocity = Vector3.Zero;
 
+            HitPoints = 10;
+            Score = 0;
             Speed = 5;
+            
+            ShotSoundInstance = ShotSound.CreateInstance();
         }
 
         private void UpdateTransform()
@@ -141,6 +145,9 @@ namespace HeroWars
 
                 bullet.Get<RigidbodyComponent>().IsKinematic = false;
                 bullet.Get<RigidbodyComponent>().LinearVelocity = new Vector3(0, 20, 0);
+                
+                ShotSoundInstance.Stop();
+                ShotSoundInstance.Play();
             }
         }
 
@@ -174,12 +181,25 @@ namespace HeroWars
         public void TakeDamage()
         {
             HitPoints--;
+            
+            GameGlobals.PlayerDamageEventKey.Broadcast();
 
             if(HitPoints <= 0)
             {
                 HitPoints = 0;
+
                 GameGlobals.PlayerDeathEventKey.Broadcast();
             }
+        }
+
+        public void AddScore(int score)
+        {
+            Score += score;
+        }
+        
+        public void AddHealth(int health)
+        {
+            HitPoints += health;
         }
     }
 }

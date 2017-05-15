@@ -14,6 +14,7 @@ Hierarchy:
         - d35e0cd3-1f87-45f0-afdc-465653f774e7
         - be80e297-3ddd-47c6-aaee-c08bc034237d
         - 1d93f4d0-85ed-4767-b02e-7d01f8d7a768
+        - 64f62130-e7c2-4e9b-a8c5-8318a4ac079c
     Parts:
         -   Entity:
                 Id: 052e9d19-9014-4356-a3bd-1f299c81b60e
@@ -94,8 +95,29 @@ Hierarchy:
                         Children: {}
                     4b9ec9969056832534323c0cef03e68e: !HeroWars.LevelManagerScript,HeroWars.Game
                         Id: 3fa080f4-c561-4e4c-86e5-35c44bee5a1d
-                        SpawnInterval: 0.0
-                        SpawnCountdown: 0.0
+                        BackgroundMusic: 4e4e4f0a-5f43-446a-a9ee-42805726ebde:Sounds/BackgroundMusic
+                        BackgroundMusicInstance: null
+                        EnemySpawnInterval: 0.0
+                        EnemySpawnCountdown: 0.0
+                        HealthUpSpawnInterval: 0.0
+                        HealthUpSpawnCountdown: 0.0
+                        GameHUD: 4e58b800-2f4c-4e8e-b6c5-e53b16be3545:GameHUD
+        -   Entity:
+                Id: 64f62130-e7c2-4e9b-a8c5-8318a4ac079c
+                Name: GameHUD
+                Components:
+                    6ed6d4c11354e2d327f1a1fadc4d44e6: !TransformComponent
+                        Id: 29b16748-7feb-4aef-b0fe-cde2cc8150a1
+                        Position: {X: -2.25, Y: 1.75, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9934c865aca8588f542fc61eef0c4761: !UIComponent
+                        Id: f07e4020-899b-4bb7-8e8d-d27a746e5ea4
+                        Page: 4e58b800-2f4c-4e8e-b6c5-e53b16be3545:GameHUD
+                        IsFullScreen: false
+                        Resolution: {X: 640.0, Y: 100.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
         -   Entity:
                 Id: 897f3df7-6ed4-4c49-9cec-3e03bd0e61fe
                 Name: Background

@@ -12,6 +12,9 @@ using SiliconStudio.Xenko.Physics;
 using SiliconStudio.Xenko.Engine.Events;
 using SiliconStudio.Core.Extensions;
 using SiliconStudio.Core.Serialization.Contents;
+using SiliconStudio.Xenko.UI.Controls;
+using SiliconStudio.Xenko.UI;
+using SiliconStudio.Xenko.Audio;
 
 namespace HeroWars
 {
@@ -21,14 +24,31 @@ namespace HeroWars
 
         private EventReceiver GameOverListener = new EventReceiver(GameGlobals.GameOverEventKey);
         private EventReceiver PlayerDeathListener = new EventReceiver(GameGlobals.PlayerDeathEventKey);
+        private EventReceiver EnemyDeathListener = new EventReceiver(GameGlobals.EnemyDeathEventKey);
+        
+        public Sound BackgroundMusic {get; set;}
+        public SoundInstance BackgroundMusicInstance {get; set;}
 
-        public float SpawnInterval { get; set; }
-        public float SpawnCountdown { get; set; }
+        public float EnemySpawnInterval { get; set; }
+        public float EnemySpawnCountdown { get; set; }
+
+        public float HealthUpSpawnInterval { get; set; }
+        public float HealthUpSpawnCountdown { get; set; }
 
         private Prefab EnemyShipPrefab;
         private Prefab PlayerPrefab;
+        private Prefab HealthUpPrefab;
 
         private Entity PlayerEntity;
+        
+        public UIPage GameHUD {get; set;}
+        
+        private TextBlock ScoreText {get; set; }
+        private TextBlock HighScoreText { get; set; }
+        private TextBlock HealthText {get; set;}
+        
+        private int Score {get; set;}
+        private int CurrentHighScore;
 
         public override void Start()
         {
@@ -36,17 +56,39 @@ namespace HeroWars
 
             PlayerPrefab = Content.Load<Prefab>("Player");
             EnemyShipPrefab = Content.Load<Prefab>("EnemyShip");
+            HealthUpPrefab = Content.Load<Prefab>("HealthUp");
 
-            SpawnInterval = 1f;
+            EnemySpawnInterval = 1f;
+            EnemySpawnCountdown = 0;
 
-            SpawnCountdown = 0;
+            HealthUpSpawnInterval = 10f;
+            HealthUpSpawnCountdown = HealthUpSpawnInterval;
+
+            ScoreText = GameHUD?.RootElement.FindVisualChildOfType<TextBlock>("ScoreText");
+            HealthText = GameHUD?.RootElement.FindVisualChildOfType<TextBlock>("HealthText");
+            HighScoreText = GameHUD?.RootElement.FindVisualChildOfType<TextBlock>("HighScoreText");
+
+            BackgroundMusicInstance = BackgroundMusic.CreateInstance();
 
             Initialize();
         }
 
         public void Initialize()
         {
+        
+            BackgroundMusicInstance.Volume = 0.25f;
+            BackgroundMusicInstance.Stop();
+            BackgroundMusicInstance.IsLooping = true;
+            BackgroundMusicInstance.Play();
+            Score = 0;
             SpawnPlayer();
+            CurrentHighScore = GameGlobals.GetHighScore();
+            UpdateHighScoreText(CurrentHighScore);
+        }
+
+        private void UpdateHighScoreText(int score)
+        {
+            HighScoreText.Text = $"High Score: {score}";
         }
 
         public void SpawnPlayer()
@@ -67,6 +109,50 @@ namespace HeroWars
             }
         }
 
+        public void SpawnEnemy()
+        {
+            var enempShipInstance = EnemyShipPrefab.Instantiate();
+
+            var enemyShip = enempShipInstance[0];
+
+            var random = new Random();
+
+            var spawnPosition = new Vector3(random.Next(-3, 3), 2.25f, 0);
+
+            enemyShip.Transform.Position = spawnPosition;
+
+            enemyShip.Transform.UpdateWorldMatrix();
+
+            SceneSystem.SceneInstance.RootScene.Entities.Add(enemyShip);
+
+            enemyShip.Get<RigidbodyComponent>().IsKinematic = false;
+
+            var x = random.Next(-1, 2);
+
+            enemyShip.Get<RigidbodyComponent>().LinearVelocity = new Vector3((float)x, -1f, 0);
+        }
+        
+        public void SpawnHealthUp()
+        {
+            var healthUpInstance = HealthUpPrefab.Instantiate()[0];
+            
+            var random = new Random();
+
+            var spawnPosition = new Vector3(random.Next(-3, 3), 2.25f, 0);
+
+            healthUpInstance.Transform.Position = spawnPosition;
+
+            healthUpInstance.Transform.UpdateWorldMatrix();
+
+            SceneSystem.SceneInstance.RootScene.Entities.Add(healthUpInstance);
+
+            healthUpInstance.Get<RigidbodyComponent>().IsKinematic = false;
+
+            var x = random.Next(-1, 2);
+
+            healthUpInstance.Get<RigidbodyComponent>().LinearVelocity = new Vector3(0, -0.5f, 0);
+        }
+
         public override void Update()
         {
             if (PlayerDeathListener.TryReceive())
@@ -76,38 +162,50 @@ namespace HeroWars
 
             if (GameOverListener.TryReceive())
             {
+                if(Score > CurrentHighScore)
+                {
+                    GameGlobals.SetHighScore(Score);
+                }
+
+                BackgroundMusicInstance.Stop();
+            
                 Content.Unload(SceneSystem.SceneInstance.RootScene);
 
                 SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("GameOver");
             }
 
+            if(EnemyDeathListener.TryReceive())
+            {
+                Score++;
+            }
+
             if (Game.IsRunning)
             {
-                SpawnCountdown -= (float)Game.UpdateTime.Elapsed.TotalSeconds;
+            
+                ScoreText.Text = $"Score: {Score}";
+                HealthText.Text = $"Health: {PlayerEntity.Get<PlayerScript>().HitPoints}";
 
-                if (SpawnCountdown <= 0)
+                if(Score > CurrentHighScore)
                 {
-                    var enempShipInstance = EnemyShipPrefab.Instantiate();
+                    UpdateHighScoreText(Score);
+                }
+            
+                EnemySpawnCountdown -= (float)Game.UpdateTime.Elapsed.TotalSeconds;
 
-                    var enemyShip = enempShipInstance[0];
+                if (EnemySpawnCountdown <= 0)
+                {
+                    SpawnEnemy();
 
-                    var random = new Random();
+                    EnemySpawnCountdown = EnemySpawnInterval;
+                }
 
-                    var spawnPosition = new Vector3(random.Next(-3, 3), 2.25f, 0);
+                HealthUpSpawnCountdown -= (float)Game.UpdateTime.Elapsed.TotalSeconds;
 
-                    enemyShip.Transform.Position = spawnPosition;
+                if (HealthUpSpawnCountdown <= 0)
+                {
+                    SpawnHealthUp();
 
-                    enemyShip.Transform.UpdateWorldMatrix();
-
-                    SceneSystem.SceneInstance.RootScene.Entities.Add(enemyShip);
-
-                    enemyShip.Get<RigidbodyComponent>().IsKinematic = false;
-
-                    var x = random.Next(-1, 2);
-
-                    enemyShip.Get<RigidbodyComponent>().LinearVelocity = new Vector3((float)x, -1f, 0);
-
-                    SpawnCountdown = SpawnInterval;
+                    HealthUpSpawnCountdown = HealthUpSpawnInterval;
                 }
             }
         }

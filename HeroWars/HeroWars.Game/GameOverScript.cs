@@ -13,6 +13,7 @@ using SiliconStudio.Xenko.UI.Controls;
 using SiliconStudio.Xenko.UI.Panels;
 using SiliconStudio.Xenko.UI.Events;
 using SiliconStudio.Core.Serialization.Contents;
+using SiliconStudio.Xenko.Games;
 
 namespace HeroWars
 {
@@ -33,6 +34,7 @@ namespace HeroWars
 
             RetryButton.Click += (object sender, RoutedEventArgs routedEventArgs) =>
             {
+                Content.Unload(SceneSystem.SceneInstance.RootScene);
                 SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("MainScene");
             };
         }

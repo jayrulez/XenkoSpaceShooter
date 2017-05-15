@@ -25,6 +25,7 @@ Hierarchy:
                         IgnoreDepth: true
                     05ad187f4949c6c99fdde0cb252518fe: !HeroWars.PlayerScript,HeroWars.Game
                         Id: 758a6e8e-f754-4d1a-abb7-0935cae0564a
+                        ShotSound: 4b0b1b43-794a-498e-8cb6-926762908add:Sounds/sfx_laser2
                     4598bba1f1e62d334a72d0b71f0aacfb: !CharacterComponent
                         Id: 004437b5-6895-4dd7-9418-b61c88008453
                         CanSleep: false

@@ -38,11 +38,24 @@ ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
 RootAssets:
+    - 06ab4dc7-0664-4e85-87e5-cf3a4e053b7f:Sounds/sfx_laser1
     - 104df556-c8b6-4da3-b2f6-eb6a0adc2f3e:GameOverUi
+    - 31a5636f-2ec7-42e0-b610-e196d6874e90:Sounds/sfx_shieldUp
+    - 360ff315-682c-4b09-a20a-c2cb5f986b5f:HealthUp
+    - 3f3b1ccd-b0b0-4242-ab02-3ca4081ff532:Sprites/EnemyExplosion
+    - 4b0b1b43-794a-498e-8cb6-926762908add:Sounds/sfx_laser2
+    - 4e4e4f0a-5f43-446a-a9ee-42805726ebde:Sounds/BackgroundMusic
+    - 4e58b800-2f4c-4e8e-b6c5-e53b16be3545:GameHUD
     - 67dcadee-658e-480c-96f9-00f878ce761e:StartScene
+    - 84706b1a-26cd-444c-8e15-082956236bf8:Sounds/EnemyExplosion
+    - 8920f096-8956-4fa1-b7f3-921d336e9a2a:Sounds/sfx_zap
+    - 940ebdf2-972c-4093-8f03-a58aa7bea293:Sounds/sfx_twoTone
     - a44b7572-b0d5-4ec1-8f01-e2c6419bd97c:EnemyShip
     - a4ef9704-067f-4cd2-954d-d78f7eb8ca39:MainScene
     - b860a5c1-d8f8-48e5-98d8-679216acc999:Player
     - bc963b7e-af7a-4d44-b38c-aa4c2649a290:GameOver
     - c1f845c1-689e-46e1-bffd-69b4e0f9bf0f:EnemyBullet
+    - d0327103-8ce5-45ea-bdfa-ab8272ddbaca:EnemyExplosion
+    - d7a3b5f6-74bf-4f3f-9ef8-09c17065aa77:Sounds/sfx_shieldDown
+    - f316023a-8d6c-4f29-94a4-95f2d77878df:Sounds/sfx_lose
     - ff0220ba-ec09-4d28-a84f-b9bad9785b3c:PlayerBullet

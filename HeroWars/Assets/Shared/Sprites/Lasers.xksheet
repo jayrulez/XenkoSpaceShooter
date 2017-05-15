@@ -10,7 +10,6 @@ Sprites:
         Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue01.png
         Name: laserBlue01
         TextureRegion: {X: 0, Y: 0, Width: 9, Height: 54}
-        PixelsPerUnit: 200.0
         Center: {X: 0.0, Y: 0.0}
         Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
         BorderColor: {R: 0, G: 0, B: 0, A: 0}

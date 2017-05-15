@@ -47,5 +47,6 @@ Hierarchy:
                         Id: c67acf43-e4f3-48d8-9c7f-177f4e0f2acd
                         ShipSpeed: 0.0
                         FireInterval: 0.0
+                        DeathExplosion: 84706b1a-26cd-444c-8e15-082956236bf8:Sounds/EnemyExplosion
                     2495d916e7cd84e1b4f2f70255308a03: !HeroWars.EnemyCollisionScript,HeroWars.Game
                         Id: e8c7c6ac-6d47-4ab1-bfa7-d7f84fb4cc72

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using SiliconStudio.Xenko.Input;
 using SiliconStudio.Core.Mathematics;
 using SiliconStudio.Xenko.Physics;
+using SiliconStudio.Xenko.Audio;
 
 namespace HeroWars
 {
@@ -16,13 +17,17 @@ namespace HeroWars
         
         public float FireInterval {get; set;}
         
+        public Sound DeathExplosion {get; set;}
+        
         private Prefab BulletPrefab;
+        private Prefab ExplosionPrefab;
         float ReloadTime;
         float ReloadCountdown;
 
         public override void Start()
         {
             BulletPrefab = Content.Load<Prefab>("EnemyBullet");
+            ExplosionPrefab = Content.Load<Prefab>("EnemyExplosion");
             
             ReloadTime = 0.2f;
             ReloadCountdown = 0;
@@ -48,7 +53,7 @@ namespace HeroWars
 
                 if(Entity.Transform.Position.X < -4f || Entity.Transform.Position.X > 4f || Entity.Transform.Position.Y < -3f)
                 {
-                    Die();
+                    Remove();
                 }
             }
         }
@@ -73,11 +78,24 @@ namespace HeroWars
             bullet.Get<RigidbodyComponent>().LinearVelocity = new Vector3(0, -5, 0);
         }
 
-        public void Die()
+        private void Remove()
         {
             SceneSystem.SceneInstance.RootScene.Entities.Remove(Entity);
+        }
 
-            Cancel();
+        public void Die()
+        {
+            var explosionInstance = ExplosionPrefab.Instantiate()[0];
+            explosionInstance.Transform.Position = Entity.Transform.Position;
+            explosionInstance.Transform.UpdateWorldMatrix();
+            
+            Remove();
+            
+            SceneSystem.SceneInstance.RootScene.Entities.Add(explosionInstance);
+            
+            var explosionSound = DeathExplosion.CreateInstance();
+            explosionSound.Play();
+            GameGlobals.EnemyDeathEventKey.Broadcast();
         }
     }
 }
