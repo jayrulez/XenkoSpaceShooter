@@ -30,6 +30,9 @@ namespace HeroWars
 
             ExitButton.Click += (object sender, RoutedEventArgs routedEventArgs) =>
             {
+                var game = (Game)Game;
+
+                game.Exit();
             };
 
             RetryButton.Click += (object sender, RoutedEventArgs routedEventArgs) =>

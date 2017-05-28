@@ -21,6 +21,12 @@ namespace HeroWars
         public int Score { get; private set; }
         public Sound ShotSound {get; set;}
         private SoundInstance ShotSoundInstance;
+        private SoundInstance HealthUpSoundInstance;
+
+        public Sound HealthUpSound { get; set; }
+
+        public float DamageScreenShakeDuration { get; set; }
+        public float DamageScreenShakeFactor { get; set; }
 
         [Flags]
         private enum InputState
@@ -55,6 +61,8 @@ namespace HeroWars
             
             ReloadTime = 0.17f;
             ReloadCountdown = 0;
+            DamageScreenShakeDuration = 0;
+            DamageScreenShakeFactor = 0.5f;
 
             Initialize();
         }
@@ -72,6 +80,13 @@ namespace HeroWars
                     FireShot();
                     ReloadCountdown = ReloadTime;
                 }
+
+
+                if (DamageScreenShakeDuration > 0)
+                {
+                    DamageScreenShakeDuration -= 1 * Game.UpdateTime.Elapsed.Seconds;
+                    ShakeScreen();
+                }
             }
         }
 
@@ -85,6 +100,7 @@ namespace HeroWars
             Speed = 5;
             
             ShotSoundInstance = ShotSound.CreateInstance();
+            HealthUpSoundInstance = HealthUpSound.CreateInstance();
         }
 
         private void UpdateTransform()
@@ -147,6 +163,7 @@ namespace HeroWars
                 bullet.Get<RigidbodyComponent>().LinearVelocity = new Vector3(0, 20, 0);
                 
                 ShotSoundInstance.Stop();
+                ShotSoundInstance.Volume = 0.5f;
                 ShotSoundInstance.Play();
             }
         }
@@ -178,8 +195,19 @@ namespace HeroWars
             return inputState;
         }
 
+        public void ShakeScreen()
+        {
+        }
+
+        private void InvokeShakeScreen()
+        {
+            DamageScreenShakeDuration = 0.5f;
+        }
+
         public void TakeDamage()
         {
+            InvokeShakeScreen();
+
             HitPoints--;
             
             GameGlobals.PlayerDamageEventKey.Broadcast();
@@ -199,6 +227,8 @@ namespace HeroWars
         
         public void AddHealth(int health)
         {
+            HealthUpSoundInstance.Play();
+
             HitPoints += health;
         }
     }

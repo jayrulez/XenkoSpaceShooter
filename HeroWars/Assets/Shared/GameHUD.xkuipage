@@ -3,7 +3,7 @@ Id: 4e58b800-2f4c-4e8e-b6c5-e53b16be3545
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Design:
-    Resolution: {X: 640.0, Y: 100.0, Z: 1000.0}
+    Resolution: {X: 640.0, Y: 480.0, Z: 1000.0}
 Hierarchy:
     RootPartIds:
         - f5fd179d-245f-4caa-9bc9-1187fb759974
@@ -29,8 +29,8 @@ Hierarchy:
                 Width: 145.0
                 Height: 22.0
                 HorizontalAlignment: Left
-                VerticalAlignment: Bottom
-                Margin: {Left: 25.0}
+                VerticalAlignment: Top
+                Margin: {Left: 25.0, Top: 58.0}
                 Name: HealthText
                 Text: 'Health:'
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
@@ -43,7 +43,8 @@ Hierarchy:
                 Width: 145.0
                 Height: 24.0
                 HorizontalAlignment: Left
-                Margin: {Left: 25.0, Top: 44.0, Bottom: 32.0}
+                VerticalAlignment: Top
+                Margin: {Left: 25.0, Top: 34.0}
                 Name: ScoreText
                 Text: 'Score: '
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont

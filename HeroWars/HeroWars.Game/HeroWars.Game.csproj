@@ -108,6 +108,7 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CameraScript.cs" />
     <Compile Include="EnemyBulletScript.cs" />
     <Compile Include="EnemyExplosionScript.cs" />
     <Compile Include="GameGlobals.cs" />

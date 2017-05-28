@@ -43,6 +43,20 @@ namespace HeroWars
                         script.Die();
 
                         enemyScript.Die();
+                    }else if (collision.ColliderA.Entity.Name == "Player")
+                    {
+                        var script = collision.ColliderA.Entity.Get<PlayerScript>();
+
+                        script.TakeDamage();
+
+                        enemyScript.Die();
+                    }else if (collision.ColliderB.Entity.Name == "Player")
+                    {
+                        var script = collision.ColliderB.Entity.Get<PlayerScript>();
+
+                        script.TakeDamage();
+
+                        enemyScript.Die();
                     }
                 }
             }

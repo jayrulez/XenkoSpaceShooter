@@ -115,9 +115,9 @@ Hierarchy:
                     9934c865aca8588f542fc61eef0c4761: !UIComponent
                         Id: f07e4020-899b-4bb7-8e8d-d27a746e5ea4
                         Page: 4e58b800-2f4c-4e8e-b6c5-e53b16be3545:GameHUD
-                        IsFullScreen: false
-                        Resolution: {X: 640.0, Y: 100.0, Z: 1000.0}
+                        Resolution: {X: 640.0, Y: 480.0, Z: 1000.0}
                         Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        ResolutionStretch: FixedWidthFixedHeight
         -   Entity:
                 Id: 897f3df7-6ed4-4c49-9cec-3e03bd0e61fe
                 Name: Background

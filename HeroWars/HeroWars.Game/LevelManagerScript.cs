@@ -15,6 +15,7 @@ using SiliconStudio.Core.Serialization.Contents;
 using SiliconStudio.Xenko.UI.Controls;
 using SiliconStudio.Xenko.UI;
 using SiliconStudio.Xenko.Audio;
+using SiliconStudio.Xenko.UI.Events;
 
 namespace HeroWars
 {
@@ -25,6 +26,8 @@ namespace HeroWars
         private EventReceiver GameOverListener = new EventReceiver(GameGlobals.GameOverEventKey);
         private EventReceiver PlayerDeathListener = new EventReceiver(GameGlobals.PlayerDeathEventKey);
         private EventReceiver EnemyDeathListener = new EventReceiver(GameGlobals.EnemyDeathEventKey);
+
+        private Vector3 OriginalCameraPosition;
         
         public Sound BackgroundMusic {get; set;}
         public SoundInstance BackgroundMusicInstance {get; set;}
@@ -49,6 +52,7 @@ namespace HeroWars
         
         private int Score {get; set;}
         private int CurrentHighScore;
+        private Entity Camera;
 
         public override void Start()
         {
@@ -59,7 +63,7 @@ namespace HeroWars
             HealthUpPrefab = Content.Load<Prefab>("HealthUp");
 
             EnemySpawnInterval = 1f;
-            EnemySpawnCountdown = 0;
+            EnemySpawnCountdown = 3f;
 
             HealthUpSpawnInterval = 10f;
             HealthUpSpawnCountdown = HealthUpSpawnInterval;
@@ -69,6 +73,8 @@ namespace HeroWars
             HighScoreText = GameHUD?.RootElement.FindVisualChildOfType<TextBlock>("HighScoreText");
 
             BackgroundMusicInstance = BackgroundMusic.CreateInstance();
+
+            //OriginalCameraPosition = 
 
             Initialize();
         }
@@ -172,6 +178,8 @@ namespace HeroWars
                 Content.Unload(SceneSystem.SceneInstance.RootScene);
 
                 SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("GameOver");
+                
+                //GameOverText.Visibility = Visibility.Visible;
             }
 
             if(EnemyDeathListener.TryReceive())
@@ -181,7 +189,6 @@ namespace HeroWars
 
             if (Game.IsRunning)
             {
-            
                 ScoreText.Text = $"Score: {Score}";
                 HealthText.Text = $"Health: {PlayerEntity.Get<PlayerScript>().HitPoints}";
 
@@ -207,6 +214,7 @@ namespace HeroWars
 
                     HealthUpSpawnCountdown = HealthUpSpawnInterval;
                 }
+            }else{
             }
         }
     }

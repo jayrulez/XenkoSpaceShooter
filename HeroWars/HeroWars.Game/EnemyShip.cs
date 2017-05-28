@@ -94,6 +94,7 @@ namespace HeroWars
             SceneSystem.SceneInstance.RootScene.Entities.Add(explosionInstance);
             
             var explosionSound = DeathExplosion.CreateInstance();
+            explosionSound.Volume = 0.3f;
             explosionSound.Play();
             GameGlobals.EnemyDeathEventKey.Broadcast();
         }
