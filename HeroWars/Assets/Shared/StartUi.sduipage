@@ -1,0 +1,68 @@
+!UIPageAsset
+Id: 49d38664-21f5-4378-b386-861789a73f56
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 640.0, Y: 480.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !UniformGrid ref!! 410260cc-89b8-4163-95dd-623358ba4b43
+    Parts:
+        -   UIElement: !UniformGrid
+                Id: 410260cc-89b8-4163-95dd-623358ba4b43
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    377bd0b72590899dbb99dbf72d960455: !ImageElement ref!! 9ecdad81-cdd0-4846-a849-618fd868322d
+                    5d9c989b85b6da8eacfaed436db01a42: !Grid ref!! dfef6761-3bed-41fe-a084-345354a7a815
+        -   UIElement: !ContentDecorator
+                Id: 4b17edfb-975c-4c19-8d25-a9f320b86b17
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 555.0
+                Height: 58.0
+                VerticalAlignment: Bottom
+                Margin: {Left: 42.5, Right: 42.5, Bottom: 11.0}
+                Padding: {}
+                Content: !TextBlock ref!! b5e3cf67-8f0d-42e8-8b88-06bc44b049aa
+        -   UIElement: !ImageElement
+                Id: 9ecdad81-cdd0-4846-a849-618fd868322d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 798.6112
+                Height: 499.132019
+                Margin: {Left: -61.83499, Right: -96.7762451, Bottom: -19.132019}
+                Name: Background
+                Source: !SpriteFromSheet
+                    Sheet: 5cae0fdb-04c7-45e8-bb1c-dd77315a1aa0:Sprites/SpriteSheet
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: b5e3cf67-8f0d-42e8-8b88-06bc44b049aa
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.6842
+                Height: 55.5
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Name: StartText
+                Text: Touch Screen to Start
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: dfef6761-3bed-41fe-a084-345354a7a815
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 640.0
+                Height: 480.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Children:
+                    cb8ff5a55d4ce662d1402ae28fc7d550: !ContentDecorator ref!! 4b17edfb-975c-4c19-8d25-a9f320b86b17
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}

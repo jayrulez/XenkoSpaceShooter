@@ -1,0 +1,45 @@
+!SceneAsset
+Id: 67dcadee-658e-480c-96f9-00f878ce761e
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 1b4de767-463e-4d76-af26-0c820e7f8ac3
+        - ref!! 0ad840b4-8e56-4071-baa8-4e820a4206a6
+    Parts:
+        -   Entity:
+                Id: 0ad840b4-8e56-4071-baa8-4e820a4206a6
+                Name: Camera
+                Components:
+                    393dca20a708001cabb0a988318e14ce: !TransformComponent
+                        Id: 056a7e94-f02d-4996-8b64-891d12cc2179
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9e9cee030b5bf99ecbda86027d635b9b: !CameraComponent
+                        Id: cd0fcd76-0597-47a3-9fd9-f944d1918d7e
+                        Name: null
+                        Projection: Perspective
+                        Slot: 150d5a54-4b14-413a-ba9e-7bfbd3ff5465
+        -   Entity:
+                Id: 1b4de767-463e-4d76-af26-0c820e7f8ac3
+                Name: StartUI
+                Components:
+                    275ea7b1ca442800d43d428200cffcff: !TransformComponent
+                        Id: 5031de34-4f25-461d-932a-b464ecdc792a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1155d0723685a3d337d6641a31704e61: !UIComponent
+                        Id: 361a5c75-3da3-4490-8b10-5708904da93a
+                        Page: 49d38664-21f5-4378-b386-861789a73f56:StartUi
+                        Resolution: {X: 640.0, Y: 480.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        ResolutionStretch: FixedHeightAdaptableWidth
+                    6cc0f1bac8ea634deacc8a9fdd6d5276: !HeroWars.StartScript,HeroWars.Game
+                        Id: 532d55ff-7152-433d-8a42-0199919d1819
+                        StartUI: 49d38664-21f5-4378-b386-861789a73f56:StartUi

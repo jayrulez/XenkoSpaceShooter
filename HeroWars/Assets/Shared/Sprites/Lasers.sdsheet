@@ -1,0 +1,344 @@
+!SpriteSheet
+Id: 90a7825b-c143-4188-bb10-7bcc17eb2dc2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    8744b7424665d8a257c98ad35a6f0836:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue01.png
+        Name: laserBlue01
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 54}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9b209ebc3f1c2a8dbf699e20a1b00c98:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue02.png
+        Name: laserBlue02
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    4cdc9166b43282f291c27647345fd131:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue03.png
+        Name: laserBlue03
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    28007c125310b026859e072e94878651:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue04.png
+        Name: laserBlue04
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2b57e9368a0279330f43dc57744bbf1b:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue05.png
+        Name: laserBlue05
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1edd2b03bc34c8b8407cc4667eeccb41:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue06.png
+        Name: laserBlue06
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    ec5c4347b8d6b58823b398e17c1f2701:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue07.png
+        Name: laserBlue07
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    abb7c23f84415cf36ae0d9391dffb123:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue08.png
+        Name: laserBlue08
+        TextureRegion: {X: 0, Y: 0, Width: 48, Height: 46}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c2c4e973eb17747dc5235acf2694592d:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue09.png
+        Name: laserBlue09
+        TextureRegion: {X: 0, Y: 0, Width: 48, Height: 46}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    40402aa70bd926c4e68c74865a904753:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue10.png
+        Name: laserBlue10
+        TextureRegion: {X: 0, Y: 0, Width: 37, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a5ce0fe34312f97c4ab2d79f112f06fe:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue11.png
+        Name: laserBlue11
+        TextureRegion: {X: 0, Y: 0, Width: 38, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    ccddc95acbda2ae0ce90f017bcb45eb6:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue12.png
+        Name: laserBlue12
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e3193791a9a30ef89cb1b06a7e6cbd9d:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue13.png
+        Name: laserBlue13
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c5042d146c55c898023ff667a4a5b6f8:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue14.png
+        Name: laserBlue14
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    49dface8d2e10f4779e94559f28a8c06:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue15.png
+        Name: laserBlue15
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2b0a8d9c22562ffca3c307b55f86b1c6:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserBlue16.png
+        Name: laserBlue16
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 54}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1897ec8936922335e8b1058367c22aea:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen01.png
+        Name: laserGreen01
+        TextureRegion: {X: 0, Y: 0, Width: 37, Height: 38}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f2d1a8e949e052fe49185a31a66e2f4c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen02.png
+        Name: laserGreen02
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    147b6b2ea63cf15ba0741ad12ef44c4c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen03.png
+        Name: laserGreen03
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    29618d9098954da2cf6796466e60d51a:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen04.png
+        Name: laserGreen04
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    19be63d0b28e62680d5571cbffab1818:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen05.png
+        Name: laserGreen05
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9335b54b51933beec33a0d2eeb7ded1c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen06.png
+        Name: laserGreen06
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    71cb6b21a81f4bf3e0ed1cae980fa46c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen07.png
+        Name: laserGreen07
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    54b4ad685da4db57477927a0453e21cf:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen08.png
+        Name: laserGreen08
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    cca6ff4351ae72ba0b00aff774f4f27f:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen09.png
+        Name: laserGreen09
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    6678060a0979317646369eab2a79190a:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen10.png
+        Name: laserGreen10
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 54}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9c54ff74e32f5c9eaac4ab7febab6567:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen11.png
+        Name: laserGreen11
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 54}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f390bde197e5f53cbdd2e1e93d289ee2:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen12.png
+        Name: laserGreen12
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    ad238beb2678ad9e4c3c37c3e8c87148:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen13.png
+        Name: laserGreen13
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d6e4d08d6f61b452e7092b7ddac891b5:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen14.png
+        Name: laserGreen14
+        TextureRegion: {X: 0, Y: 0, Width: 48, Height: 46}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    6c8308222ca4e255fa8698f08ae97220:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen15.png
+        Name: laserGreen15
+        TextureRegion: {X: 0, Y: 0, Width: 48, Height: 46}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7367f088acc8b49102b2f9155b0e972c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserGreen16.png
+        Name: laserGreen16
+        TextureRegion: {X: 0, Y: 0, Width: 37, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    632575e7259b49129ea63b8c3194e292:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed01.png
+        Name: laserRed01
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 54}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a287c2b25066cf63f9c2431ac8846b32:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed02.png
+        Name: laserRed02
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    4e2ba75002e2949d9a2e18d79e7d4687:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed03.png
+        Name: laserRed03
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    cf8a60f4f6e8f8023fd54470f629a37a:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed04.png
+        Name: laserRed04
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    73b29dad0439eee517fe830a889a59bb:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed05.png
+        Name: laserRed05
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a820e715ef8a39eb36576bbc9249625b:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed06.png
+        Name: laserRed06
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c09e3d3db28ea01fcf0e231769bd4f2a:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed07.png
+        Name: laserRed07
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1b81965802cc878dee13706b4405a0c9:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed08.png
+        Name: laserRed08
+        TextureRegion: {X: 0, Y: 0, Width: 48, Height: 46}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d0ab219eb23222d47087edc8a55e96cd:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed09.png
+        Name: laserRed09
+        TextureRegion: {X: 0, Y: 0, Width: 48, Height: 46}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bbc512c8bc7879d9afe42c381a4ab9d1:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed10.png
+        Name: laserRed10
+        TextureRegion: {X: 0, Y: 0, Width: 37, Height: 36}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    af03c883c9a2e446f8d4ae56fe8cd513:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed11.png
+        Name: laserRed11
+        TextureRegion: {X: 0, Y: 0, Width: 37, Height: 37}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    232c5cd41761625be6ed2cb8ebb4b235:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed12.png
+        Name: laserRed12
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    06fee81e1cb423064a08c19aa90b5e2c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed13.png
+        Name: laserRed13
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    eb38ca435c84e37eceee59c41d952202:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed14.png
+        Name: laserRed14
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c53816fdcc6363f3279e5ef92888cb44:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed15.png
+        Name: laserRed15
+        TextureRegion: {X: 0, Y: 0, Width: 9, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8c05abd0c9ed984dac569a8168820afc:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Lasers/laserRed16.png
+        Name: laserRed16
+        TextureRegion: {X: 0, Y: 0, Width: 13, Height: 54}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

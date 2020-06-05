@@ -1,0 +1,197 @@
+!SpriteSheet
+Id: 692acab3-4c11-4f81-ab8f-36a0415f0afd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    2830e804c85a1b906c2fe1cc34f18757:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire00.png
+        Name: fire00
+        TextureRegion: {X: 0, Y: 0, Width: 16, Height: 40}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    21728be5e364a4de2eba950b8811cd5c:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire01.png
+        Name: fire01
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    6285cd75d25acb91189e853638102d42:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire02.png
+        Name: fire02
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    646a18053fb13ea02e6d5ff84336ad7a:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire03.png
+        Name: fire03
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    54f6e55f54fe3a9c9bd462554274e451:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire04.png
+        Name: fire04
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d5304b3e08b1f5d76ceddac7e90f63dc:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire05.png
+        Name: fire05
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    db8ebec4a3f2bebecfb41670925e49bc:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire06.png
+        Name: fire06
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    243fc51b84520b48a939aa28b237d274:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire07.png
+        Name: fire07
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d20b3475977c0c678e2b7997fa0f341d:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire08.png
+        Name: fire08
+        TextureRegion: {X: 0, Y: 0, Width: 16, Height: 40}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    11d7bd58a28cf8482683504f0defc1c1:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire09.png
+        Name: fire09
+        TextureRegion: {X: 0, Y: 0, Width: 16, Height: 40}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    b46d23a4d28c59737e3cd618b53d1429:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire10.png
+        Name: fire10
+        TextureRegion: {X: 0, Y: 0, Width: 16, Height: 40}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5e864bf570d2980f7639d51007184140:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire11.png
+        Name: fire11
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2deabd16d382864ff58c647c0c7e1222:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire12.png
+        Name: fire12
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    fffce7dd77f88a26990404aa254f0af2:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire13.png
+        Name: fire13
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    913d7dba453ee8cdf2df52483c387fdc:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire14.png
+        Name: fire14
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c4183b40edbf409d8171cbdefff7794f:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire15.png
+        Name: fire15
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a279e0aaf4e3e88a104d5bfc5861729e:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire16.png
+        Name: fire16
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9ea30159a4ddfef60eb641d7093ab231:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire17.png
+        Name: fire17
+        TextureRegion: {X: 0, Y: 0, Width: 14, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    b1b0bcc96e3922f973429fae1df58096:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire18.png
+        Name: fire18
+        TextureRegion: {X: 0, Y: 0, Width: 16, Height: 41}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1feeacc96d32d961ede10ff345bc9ddc:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/fire19.png
+        Name: fire19
+        TextureRegion: {X: 0, Y: 0, Width: 16, Height: 41}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e80aecb8a4a2fdacd01475ca042c68d4:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/shield1.png
+        Name: shield1
+        TextureRegion: {X: 0, Y: 0, Width: 133, Height: 108}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    66025432ba342ffdefaf9fd7d4252fba:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/shield2.png
+        Name: shield2
+        TextureRegion: {X: 0, Y: 0, Width: 143, Height: 119}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    98795ede9f6aacf9e8e221b14aa4c3cc:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/shield3.png
+        Name: shield3
+        TextureRegion: {X: 0, Y: 0, Width: 144, Height: 137}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    31abf992f0486a3bd327c638742a06ba:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/speed.png
+        Name: speed
+        TextureRegion: {X: 0, Y: 0, Width: 7, Height: 108}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    ffa9087954479499f2fbeb74ddda6fde:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/star1.png
+        Name: star1
+        TextureRegion: {X: 0, Y: 0, Width: 25, Height: 24}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bfd9357636f2ec4d1710cb447d5e5298:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/star2.png
+        Name: star2
+        TextureRegion: {X: 0, Y: 0, Width: 25, Height: 24}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d4f394347adc9ec298fb649c66196ab7:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Effects/star3.png
+        Name: star3
+        TextureRegion: {X: 0, Y: 0, Width: 24, Height: 24}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

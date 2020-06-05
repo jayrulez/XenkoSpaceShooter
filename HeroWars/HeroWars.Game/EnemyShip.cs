@@ -1,13 +1,13 @@
-using Xenko.Engine;
+using Stride.Engine;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xenko.Input;
-using Xenko.Core.Mathematics;
-using Xenko.Physics;
-using Xenko.Audio;
+using Stride.Input;
+using Stride.Core.Mathematics;
+using Stride.Physics;
+using Stride.Audio;
 
 namespace HeroWars
 {

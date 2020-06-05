@@ -1,0 +1,8 @@
+!Sound
+Id: 4b0b1b43-794a-498e-8cb6-926762908add
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../GameAssets/SpaceShooterRedux/Bonus/sfx_laser2.ogg
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

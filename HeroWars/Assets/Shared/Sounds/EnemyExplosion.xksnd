@@ -1,8 +1,0 @@
-!Sound
-Id: 84706b1a-26cd-444c-8e15-082956236bf8
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../GameAssets/explosion.mp3
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: false

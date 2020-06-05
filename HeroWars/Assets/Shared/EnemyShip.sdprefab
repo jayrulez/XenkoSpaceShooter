@@ -1,0 +1,52 @@
+!PrefabAsset
+Id: a44b7572-b0d5-4ec1-8f01-e2c6419bd97c
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 2c8dbff1-0a2b-4774-9e72-b3c846999b62
+    Parts:
+        -   Entity:
+                Id: 2c8dbff1-0a2b-4774-9e72-b3c846999b62
+                Name: EnemyShip
+                Components:
+                    948e90f1e2e31dec173fc7b4377de57a: !TransformComponent
+                        Id: 8cd34a70-a093-4c4a-9f85-76bc674dabd2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1e459fa515c48299ae10b0c22e9d9c47: !SpriteComponent
+                        Id: d27d7a47-b0bc-4f59-a56d-790935f4866c
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: ea8aa91f-a8d3-4bff-b7ef-5b816a65d45f:Sprites/Enemies
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    6be2b8f07550fb01b64a67245808ad92: !RigidbodyComponent
+                        Id: 652d6cce-065d-4640-b8fb-2335bb3f1a10
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.0
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: false
+                        Mass: 0.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: true
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            0a5a132de43f0d60c1bec0e6b5608f5d: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.5, Y: 0.5, Z: 0.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    aa34573471e9d3ce860edb1b352b0211: !HeroWars.EnemyShip,HeroWars.Game
+                        Id: c67acf43-e4f3-48d8-9c7f-177f4e0f2acd
+                        ShipSpeed: 0.0
+                        FireInterval: 0.0
+                        DeathExplosion: 84706b1a-26cd-444c-8e15-082956236bf8:Sounds/EnemyExplosion
+                    2495d916e7cd84e1b4f2f70255308a03: !HeroWars.EnemyCollisionScript,HeroWars.Game
+                        Id: e8c7c6ac-6d47-4ab1-bfa7-d7f84fb4cc72

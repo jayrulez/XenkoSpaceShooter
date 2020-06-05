@@ -1,0 +1,8 @@
+!Sound
+Id: f316023a-8d6c-4f29-94a4-95f2d77878df
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../GameAssets/SpaceShooterRedux/Bonus/sfx_lose.ogg
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

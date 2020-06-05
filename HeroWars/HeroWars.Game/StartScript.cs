@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xenko.Core.Mathematics;
-using Xenko.Input;
-using Xenko.Engine;
-using Xenko.UI;
-using Xenko.UI.Controls;
-using Xenko.UI.Panels;
+using Stride.Core.Mathematics;
+using Stride.Input;
+using Stride.Engine;
+using Stride.UI;
+using Stride.UI.Controls;
+using Stride.UI.Panels;
 
 namespace HeroWars
 {

@@ -5,17 +5,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xenko.Core.Mathematics;
-using Xenko.Input;
-using Xenko.Engine;
-using Xenko.Physics;
-using Xenko.Engine.Events;
-using Xenko.Core.Extensions;
-using Xenko.Core.Serialization.Contents;
-using Xenko.UI.Controls;
-using Xenko.UI;
-using Xenko.Audio;
-using Xenko.UI.Events;
+using Stride.Core.Mathematics;
+using Stride.Input;
+using Stride.Engine;
+using Stride.Physics;
+using Stride.Engine.Events;
+using Stride.Core.Extensions;
+using Stride.Core.Serialization.Contents;
+using Stride.UI.Controls;
+using Stride.UI;
+using Stride.Audio;
+using Stride.UI.Events;
 
 namespace HeroWars
 {

@@ -1,0 +1,71 @@
+!SpriteSheet
+Id: ebdb9f4b-7418-4267-8a41-1d363ed2525a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    33596b182c5403dd7f080e7076ef0ce7:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip1_damage1.png
+        Name: playerShip1_damage1
+        TextureRegion: {X: 0, Y: 0, Width: 99, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e0b3c0d54c64346a9b1c919594aee5c4:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip1_damage2.png
+        Name: playerShip1_damage2
+        TextureRegion: {X: 0, Y: 0, Width: 99, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1559b21b5a133ba5793e14d68695ffef:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip1_damage3.png
+        Name: playerShip1_damage3
+        TextureRegion: {X: 0, Y: 0, Width: 100, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9073ffa9a1fa9c19939e0b699fe3ffd3:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip2_damage1.png
+        Name: playerShip2_damage1
+        TextureRegion: {X: 0, Y: 0, Width: 111, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    168ab2e3d0a801febe9e983aa683d834:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip2_damage2.png
+        Name: playerShip2_damage2
+        TextureRegion: {X: 0, Y: 0, Width: 112, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    6c0087adfb8302410e2ca93d6b95ca36:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip2_damage3.png
+        Name: playerShip2_damage3
+        TextureRegion: {X: 0, Y: 0, Width: 112, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    3e925ee38f6a04ee195a8e4f1b715a25:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip3_damage1.png
+        Name: playerShip3_damage1
+        TextureRegion: {X: 0, Y: 0, Width: 97, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8a8fc50194d126579829fe786242273f:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip3_damage2.png
+        Name: playerShip3_damage2
+        TextureRegion: {X: 0, Y: 0, Width: 97, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    4fc56f3b9f530bdf375867192043a2f9:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/Damage/playerShip3_damage3.png
+        Name: playerShip3_damage3
+        TextureRegion: {X: 0, Y: 0, Width: 97, Height: 76}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

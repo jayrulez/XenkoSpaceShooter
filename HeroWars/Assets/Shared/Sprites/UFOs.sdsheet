@@ -1,0 +1,36 @@
+!SpriteSheet
+Id: e3b1396d-8226-446c-a3b4-dcc068a9f286
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    66b55fbbe626e7b6a6f781a7278f7fbb:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/ufoBlue.png
+        Name: ufoBlue
+        TextureRegion: {X: 0, Y: 0, Width: 91, Height: 91}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    044f378123602d9febb2087e678d4b19:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/ufoGreen.png
+        Name: ufoGreen
+        TextureRegion: {X: 0, Y: 0, Width: 91, Height: 91}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    88a1afa220fd9a91803518446c44fbf0:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/ufoRed.png
+        Name: ufoRed
+        TextureRegion: {X: 0, Y: 0, Width: 91, Height: 91}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7c432baa31e5201b0d7fcfcaa22d6460:
+        Source: ../../../../GameAssets/SpaceShooterRedux/PNG/ufoYellow.png
+        Name: ufoYellow
+        TextureRegion: {X: 0, Y: 0, Width: 91, Height: 91}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

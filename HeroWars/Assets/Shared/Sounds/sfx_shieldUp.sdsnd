@@ -1,0 +1,8 @@
+!Sound
+Id: 31a5636f-2ec7-42e0-b610-e196d6874e90
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../GameAssets/SpaceShooterRedux/Bonus/sfx_shieldUp.ogg
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

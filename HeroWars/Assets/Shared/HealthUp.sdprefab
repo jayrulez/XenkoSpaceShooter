@@ -1,0 +1,48 @@
+!PrefabAsset
+Id: 360ff315-682c-4b09-a20a-c2cb5f986b5f
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! fb9f63ee-bf98-4140-912f-601bdb8af4ae
+    Parts:
+        -   Entity:
+                Id: fb9f63ee-bf98-4140-912f-601bdb8af4ae
+                Name: HealthUp
+                Components:
+                    297a7959a7ab89bcb67ad1d84345537f: !TransformComponent
+                        Id: 5a3fb2e7-4179-4a2b-8bce-7fd3c0566337
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    90b91d4b7bbe6a23abcf4385da62c155: !SpriteComponent
+                        Id: a6af697a-c747-46a6-a19b-9b104bba9f26
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 8c1b50c4-5605-4e78-8406-b4c9d77ef487:Sprites/Powerups
+                            CurrentFrame: 4
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    ce78d7cc8172f69bf76c32bf8f1417c6: !RigidbodyComponent
+                        Id: add5ccae-8071-4339-b837-60f3ec068f1d
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.0
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: false
+                        Mass: 0.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            258f385839e70698e80d238634b8c3d3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.2, Y: 0.2, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    d50b8634d7a81433e95165f4481c351f: !HeroWars.HealthUpScript,HeroWars.Game
+                        Id: 406494ee-6a15-42b7-ad89-42297231c001

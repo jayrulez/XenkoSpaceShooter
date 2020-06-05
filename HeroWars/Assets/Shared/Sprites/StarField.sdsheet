@@ -1,0 +1,17 @@
+!SpriteSheet
+Id: 91b0d77f-d87f-45ce-ac48-2defb13b2859
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    e1c87faedc6629c70fd2e4b79996cf8d:
+        Source: ../../../../GameAssets/Free_Shmup_Sprites_Starfield.png
+        Name: starfield_bg
+        TextureRegion: {X: 0, Y: 0, Width: 600, Height: 451}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderModeU: Wrap
+        BorderModeV: Wrap
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
