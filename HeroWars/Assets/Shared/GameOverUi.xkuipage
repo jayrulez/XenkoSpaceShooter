@@ -1,12 +1,12 @@
 !UIPageAsset
 Id: 104df556-c8b6-4da3-b2f6-eb6a0adc2f3e
-SerializedVersion: {Xenko: 2.0.0.0}
+SerializedVersion: {Xenko: 2.1.0.1}
 Tags: []
 Design:
     Resolution: {X: 640.0, Y: 480.0, Z: 1000.0}
 Hierarchy:
-    RootPartIds:
-        - e7b48556-909a-4301-8867-e20b020405d3
+    RootParts:
+        - !UniformGrid ref!! e7b48556-909a-4301-8867-e20b020405d3
     Parts:
         -   UIElement: !TextBlock
                 Id: 4d909259-3e16-49a1-b9fb-c4610ef4bd53

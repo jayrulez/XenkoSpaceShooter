@@ -1,4 +1,4 @@
-﻿using SiliconStudio.Xenko.Engine.Events;
+using Xenko.Engine.Events;
 using System;
 using System.Collections.Generic;
 using System.IO;

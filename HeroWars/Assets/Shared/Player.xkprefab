@@ -1,10 +1,10 @@
 !PrefabAsset
 Id: b860a5c1-d8f8-48e5-98d8-679216acc999
-SerializedVersion: {Xenko: 2.0.0.0}
+SerializedVersion: {Xenko: 3.1.0.1}
 Tags: []
 Hierarchy:
-    RootPartIds:
-        - bac48ae5-5d79-4597-af2f-eda52e11f33a
+    RootParts:
+        - ref!! bac48ae5-5d79-4597-af2f-eda52e11f33a
     Parts:
         -   Entity:
                 Id: 27a6578d-ffea-457f-8ff5-5ea49f2c6f79
@@ -140,7 +140,7 @@ Hierarchy:
                         FallSpeed: 10.0
                         MaxSlope: {Radians: 0.7853982}
                         JumpSpeed: 5.0
-                        Gravity: 0.0
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
                         ColliderShapes:
                             8163480029f610cab5e36decb5328e37: !BoxColliderShapeDesc
                                 Is2D: true

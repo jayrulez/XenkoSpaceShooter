@@ -1,39 +1,17 @@
 !Package
-Id: 0effc43d-e362-485f-ab96-3eab266109c9
-SerializedVersion: {Assets: 0.0.4}
+SerializedVersion: {Assets: 3.1.0.0}
 Meta:
-    Name: HeroWars
-    Version: 1.0.0.0
+    Name: HeroWars.Game
+    Version: 1.0.0
     Authors: []
     Owners: []
     RootNamespace: HeroWars
-    Dependencies:
-        -   Name: Xenko
-            Version: 2.0.1.1
-            RootAssets: []
-LocalDependencies: []
-Profiles:
-    -   Name: Shared
-        Platform: Shared
-        InheritProfiles: []
-        AssetFolders:
-            -   Path: Assets/Shared
-            -   Path: HeroWars.Game/Effects
-        OutputGroupDirectories: {}
-        ProjectReferences:
-            -   Id: 57098549-3093-49f2-a8e3-5c7725bf3459
-                Location: HeroWars.Game/HeroWars.Game.csproj
-                Type: Library
-    -   Name: Windows
-        Platform: Windows
-        InheritProfiles: []
-        AssetFolders:
-            -   Path: Assets/Windows
-        OutputGroupDirectories: {}
-        ProjectReferences:
-            -   Id: 18c1c57c-3ecd-4a56-82b1-2f5936e3c413
-                Location: HeroWars.Windows/HeroWars.Windows.csproj
-                Type: Executable
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir ../Assets/Shared
+    -   Path: !dir Effects
+ResourceFolders: []
+OutputGroupDirectories: {}
 ExplicitFolders: []
 Bundles: []
 TemplateFolders: []

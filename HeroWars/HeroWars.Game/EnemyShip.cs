@@ -1,13 +1,13 @@
-﻿using SiliconStudio.Xenko.Engine;
+using Xenko.Engine;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SiliconStudio.Xenko.Input;
-using SiliconStudio.Core.Mathematics;
-using SiliconStudio.Xenko.Physics;
-using SiliconStudio.Xenko.Audio;
+using Xenko.Input;
+using Xenko.Core.Mathematics;
+using Xenko.Physics;
+using Xenko.Audio;
 
 namespace HeroWars
 {

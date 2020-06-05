@@ -1,16 +1,16 @@
-﻿// Copyright (c) 2011-2017 Silicon Studio Corp. All rights reserved. (https://www.siliconstudio.co.jp)
+// Copyright (c) 2011-2017 Silicon Studio Corp. All rights reserved. (https://www.siliconstudio.co.jp)
 // See LICENSE.md for full license information.
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SiliconStudio.Core.Mathematics;
-using SiliconStudio.Xenko.Input;
-using SiliconStudio.Xenko.Engine;
-using SiliconStudio.Xenko.UI;
-using SiliconStudio.Xenko.UI.Controls;
-using SiliconStudio.Xenko.UI.Panels;
+using Xenko.Core.Mathematics;
+using Xenko.Input;
+using Xenko.Engine;
+using Xenko.UI;
+using Xenko.UI.Controls;
+using Xenko.UI.Panels;
 
 namespace HeroWars
 {
@@ -68,7 +68,7 @@ namespace HeroWars
                 }
             }
 
-            if (Input.PointerEvents.Any(e => e.State == PointerState.Down))
+            if (Input.PointerEvents.Any(e => e.IsDown))
             {
                 Content.Unload(SceneSystem.SceneInstance.RootScene);
                 SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("MainScene");
